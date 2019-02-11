@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/add"
+            android:icon="@drawable/ic_add_black_24dp"
+            android:title="Addition " />
+
+        <item
+            android:id="@+id/sub"
+            android:icon="@drawable/ic_remove_black_24dp"
+            android:title="Subtaction" />
+        <item
+            android:id="@+id/prm"
+            android:icon="@drawable/ic_local_parking_black_24dp"
+            android:title="primenumber" />
+        <item
+            android:id="@+id/palind"
+            android:icon="@drawable/ic_format_paint_black_24dp"
+            android:title="palindrome" />
+
+        <item
+            android:id="@+id/cstmvw"
+
+            android:icon="@drawable/ic_image_black_24dp"
+            android:title="Customview" />
+        <item
+            android:id="@+id/recyclrview"
+
+            android:icon="@drawable/ic_view_headline_black_24dp"
+            android:title="RecyclerView" />
+
+
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>
